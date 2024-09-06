@@ -1,0 +1,13 @@
+class Album {
+    nome
+    faixasDaMusica
+    lancamento
+    midia
+}
+
+object "<u>sobrevivendoNoInferno:Album</u>" as sobrevivendo {
+    nome: "Sobrevivendo no Inferno"
+    faixasDaMusica: 17
+    lancamento: 1990
+    midia: "MP4"
+}
