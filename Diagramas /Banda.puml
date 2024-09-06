@@ -1,0 +1,17 @@
+class Banda {
+    nome
+    nacionalidade
+    anoFundacao
+    qteIntegrantes
+    qteAlbuns
+    qtePremios
+}
+
+object "<u>queen:Banda</u>" as queen {
+    nome: "Queen"
+    nacionalidade: "brasileira" 
+    anoFundacao: 2024
+    qteIntegrantes: 5
+    qteAlbuns: 8
+    qtePremios: 1
+}
