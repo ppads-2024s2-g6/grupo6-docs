@@ -1,0 +1,15 @@
+class Gravadora {
+    nome
+    anoFundação
+    local
+    tipoEspaco
+    status
+}
+
+object "<u>Sony:Gravadora</u>" as sony {
+    nome: "Sony Music Entertainment"
+    anoFundação: "1929"
+    local: "Nova York, EUA"
+    tipoEspaco: "Corporativo"
+    status: "Ativa"
+}
