@@ -1,0 +1,20 @@
+@startuml Genero
+
+
+class Genero {
+    nome;
+    descricao;
+    instrumentosPrincipais;
+    subgeneros;
+}
+
+object "<u>rock:Genero</u>" as rock {
+    nome = "Rock"
+    descricao = "Um estilo musical com raízes no blues e no country."
+    instrumentosPrincipais = {"Guitarra", "Bateria", "Baixo"}
+    subgeneros = {"Hard Rock", "Punk Rock", "Blues Rock"}
+}
+
+rock --> Genero
+
+@enduml

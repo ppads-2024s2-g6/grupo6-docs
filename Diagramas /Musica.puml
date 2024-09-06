@@ -1,0 +1,15 @@
+class Musica{
+    nome
+    album
+    banda
+    gravadora
+    genero
+}
+
+object "<u>casteloDeMadeira:Musica</u>" as castelo{
+    nome: "Castelo de Madeira"
+    album: "Sobrevivendo no Inferno"
+    banda: "Queen"
+    gravadora: "Sony Music Entertainment"
+    genero: "Rock"
+}
